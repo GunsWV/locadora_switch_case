@@ -30,6 +30,9 @@ print("0 - SAIR")
 
 codigo = int(input("Digite o codigo do veículo que deseja alugar:"))
 
+import os
+os.system("cls")
+
 match codigo:
     case 1:
         print("O veículo escolhido foi BMW M5 | Ele está por R$ 1000")
