@@ -32,15 +32,15 @@ codigo = int(input("Digite o codigo do veículo que deseja alugar:"))
 
 match codigo:
     case 1:
-        print("O veículo escolhido foi BMW M5")
+        print("O veículo escolhido foi BMW M5 | Ele está por R$ 1000")
     case 2:
-        print("O veículo escolhido foi MUSTANG")
+        print("O veículo escolhido foi MUSTANG | Ele está por R$ 1500")
     case 3:
-        print("O veículo escolhido foi HB20")
+        print("O veículo escolhido foi HB20 | Ele está por R$500")
     case 4:
-        print("O veículo escolhido foi FUSCA")
+        print("O veículo escolhido foi FUSCA | Ele está por R$ 100")
     case 5:
-        print("O veículo escolhido foi CIVIC")
+        print("O veículo escolhido foi CIVIC | Ele está por R$ 700")
     case 0:
         print("Saindo do Programa...")
         exit()
